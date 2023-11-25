@@ -1,0 +1,111 @@
+.footerBox {
+    display: flex;
+    flex-direction: row;
+    /* padding: 50px 0; */
+    justify-content: space-between;
+
+}
+
+.footerBox .boxf {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 50px 0;
+}
+
+.footerBox .boxd {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    padding: 50px 0;
+}
+
+.boxf a,
+.boxd a {
+    display: block;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: grey;
+}
+
+.boxf a:hover {
+    border-left: 2px solid black;
+    color: black;
+}
+
+.boxd a img {
+    width: 40px;
+    height: 40px;
+}
+
+.darkblue {
+    background-color: #2a2730;
+}
+
+.navbar-inverse {
+    background-color: #504741;
+    border-color: #504741;
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    color: white;
+  }
+
+  .navbar-inverse .navbar-nav>.active>a,
+  .navbar-inverse .navbar-nav>.active>a:focus,
+  .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #BF9378;
+    background-color: #F2E2D1;
+  }
+
+  .navbar-brand img {
+    height: 35px;
+  }
+
+  /*상단 네브바의 로고이미지 스타일*/
+  .top_logo {
+    width: 100px;
+  }
+
+  .img100 {
+    width: 100%;
+  }
+
+  .mt-100 {
+    margin-top: 100px;
+  }
+
+  .mt-200 {
+    margin-top: 200px;
+  }
+
+  .my-100 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  #products .text-center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bg-lightgray {
+    background-color: #e8e7e7;
+  }
+
+.carousel-inner .item {
+    background-color: #2a2730;
+}
+
+.carousel-inner img {
+    width: 1400px;
+    height: 630px;
+    margin: 0 auto;
+    box-shadow: 0 0 141px 6px rgba(0,0,0,0.75);
+}
